@@ -14,6 +14,11 @@ Also, you still need a cmake with version newer than 3.9 to compile it easily, b
 
 CUDA is needed for GPU version
 
+```sh
+sudo apt-get update
+sudo apt-get install gcc g++ build-essential libopenmpi-dev openmpi-bin default-jdk cmake zlib1g-dev git
+```
+
 Scala 2.11.12 is recommended for capability.
 
 ```sh
