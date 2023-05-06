@@ -1,5 +1,7 @@
 # GraphXwithGPU
 
+Forked from [GraphXwithGPU](https://github.com/Kamosphere/GraphXwithGPU)
+
 This project is a demo of spark-based graph processing system. 
 
 The purpose of this project is to fully utilize the computing ability of emerging hardware and to accelerate heavy computation tasks such graph processing for distributed system, as well as to achieve well-behaved workload balancing and task scheduling for GPU processing kernel by using managers built in distributed system.
@@ -14,9 +16,13 @@ CUDA is needed for GPU version
 
 Scala 2.11.12 is recommended for capability.
 
+```sh
+wget https://downloads.lightbend.com/scala/2.11.12/scala-2.11.12.deb
+sudo dpkg -i scala-2.11.12.deb
+```
+
 Please use spark 2.4.8-USTC-NODB version in order to support some function 
 
-In order to running demo,  extra c++ library is required at https://github.com/thoh-testarossa/Graph_Algo,
 and please use spark 2.4.8-USTC-NODB version https://github.com/Kamosphere/spark-GPUGraphX
 
 ## Config
